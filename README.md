@@ -1,2 +1,8 @@
 # FileMonitor
 基于python watchdog实现
+***
+工作项目中遇到了需要监控网站目录是否被上传恶意代码文件，于是开发了该监控脚本程序
+该脚本基于watchdog库运行，实现对特定文件类型、目录进行变更告警监控
+试用pyinstaller打包可执行exe运行
+pyinstaller打包过程中遇到问题，python版本过新导致不支持在win7等旧版本windows系统上运行，
+如有旧系统运行需要，请在python3.6下打包
